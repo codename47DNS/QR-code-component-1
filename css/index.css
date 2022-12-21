@@ -9,7 +9,7 @@
 }
 
 /* Main */
-.con {
+main {
     width: 100%;
     min-height: 100vh;
     background-color: hsl(212, 45%, 89%);
@@ -29,20 +29,20 @@
 
 .centered img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 0.625em;
 }
 
-.centered h3,.centered p {
+.centered h1,.centered p {
     font-family: "Outfit",sans-serif;
     font-weight: 700;
-    font-size: 22px;
-    padding: 20px;
+    font-size: 1.38em;
+    padding: 1.25rem;
     text-align: center;
 }
 
 .centered p {
-    font-size: 15px;
+    font-size: 0.938em; /* 15px */
     font-weight: 400;
     color: hsl(220, 15%, 55%);
-    padding-top: 0px;
+    padding-top: 0;
 }
